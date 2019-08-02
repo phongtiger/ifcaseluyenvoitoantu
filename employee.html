@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let message = prompt('Login name: ');
+    let m = null;
+    if (message =='Employee'){
+        m = 'Hello';
+    }else if (message == 'Director'){
+        m = 'Greeting';
+    }else if (message == ''){
+        message = 'No login';
+    }else {
+         m = '';
+    }
+    alert(m);
+</script>
+</body>
+</html>
